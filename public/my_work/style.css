@@ -1,3 +1,26 @@
-*{
+* {
     font-family: "Times New Roman";
 }
+
+/*********************** start style form upload ***********************/
+
+/**************** start style button upload ****************/
+
+.upload_button {
+    margin-top: 4% !important;
+    margin-left: -105% !important;
+    border: double #000000 !important;
+}
+
+/**************** end style button upload ****************/
+
+/**************** start style input file ****************/
+
+.select_file {
+    margin-left: 5% !important;
+}
+
+/**************** end style input file ****************/
+
+
+/*********************** end style form upload ***********************/

@@ -18,14 +18,27 @@
         </div>
         <nav class="mt-2">
             <ul class="nav nav-pills nav-sidebar nav-child-indent flex-column" data-widget="treeview" role="menu">
+
                 <li class="nav-item">
-                    <a href="/docs/3.2/dependencies.html" class="nav-link">
-                        <i class="nav-icon fas fa-handshake"></i>
+                    <a href="{{route('users_page')}}" class="nav-link">
+                        <i class="fa-solid fa-user"></i>
+                        <p>
+                            All Users
+                        </p>
+                    </a>
+                </li>
+
+
+                <li class="nav-item">
+                    <a href="{{route('books_page')}}" class="nav-link">
+                        <i class="fa-solid fa-book"></i>
                         <p>
                             All Books
                         </p>
                     </a>
                 </li>
+
+
 
             </ul>
         </nav>
